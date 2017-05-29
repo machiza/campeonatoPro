@@ -1,0 +1,61 @@
+
+@font-face {
+	font-family: JudasPriest;
+	src: url('../fonts/JudasPriest.ttf');
+}
+
+@font-face {
+	font-family: YanoneKaffeesatz;
+	src: url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+body {
+	font-family: Helvetica, Tahoma, sans-serif;
+	color: #000; /* #333344; */
+	font-size: 100%; /* 100% = 16px */
+	text-shadow: 0.1em 0.1em 0.1em #ddf;
+	line-height: 1.5em;
+}
+
+li a {
+	color: #000; /* #333344; */
+
+}
+
+#logo {
+	font-family: JudasPriest;
+	font-size: 3em;
+	color: #113157;
+}
+
+.page-header {
+	font-family: YanoneKaffeesatz;
+	color: #851616;
+	margin-bottom: 0;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em #ddf;
+}
+
+.panel-title {
+	font-family: YanoneKaffeesatz;
+}
+
+.col-md-6 {
+	margin-bottom: 10px;
+}
+
+label {
+	color: #000;
+}
+
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+}
